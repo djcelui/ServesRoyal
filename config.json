@@ -1,0 +1,1560 @@
+{
+  "Mysql":{  
+    "UseMysql":true,
+    "MysqlHost":"2.2.2.220",
+    "MysqlUser":"ark",
+    "MysqlPass":"Q4685769!!",
+    "MysqlDB":"arkdbpve"
+  },  
+  "General":{  
+    "TimedPointsReward":{  
+      "Enabled":true,
+      "Interval":60,
+      "Groups":{  
+        "Default":{  
+          "Amount":10
+        },
+        "Bronce":{  
+          "Amount":10
+        },
+        "Plata":{  
+          "Amount":20
+        },
+        "Oro":{  
+          "Amount":25
+        },
+        "Platino":{  
+          "Amount":35
+        },
+        "Diamante":{  
+          "Amount":50
+        },
+        "PETES":{  
+          "Amount":10
+        },
+        "Strike":{  
+          "Amount":5
+        }
+      }
+    },
+    "ItemsPerPage":15,
+    "ShopDisplayTime":15.0,
+    "ShopTextSize":1.3,
+    "DbPathOverride":"",
+    "DefaultKit":"nuevo"
+  },
+  "Kits":{  
+    "nuevo":{  
+      "DefaultAmount":1,
+      "Price":60,
+      "Description":"KIT Nuevo (ptera con montura)",
+      "OnlyFromSpawn":false,
+      "Items":[ 
+        {
+          "Amount":1,
+          "Quality":0,
+          "ForceBlueprint":false,
+          "Blueprint":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Metal/PrimalItemArmor_MetalPants.PrimalItemArmor_MetalPants'"
+        },
+	      {
+          "Amount":1,
+          "Quality":0,
+          "ForceBlueprint":false,
+          "Blueprint":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Metal/PrimalItemArmor_MetalShirt.PrimalItemArmor_MetalShirt'"
+        },
+	      {
+          "Amount":1,
+          "Quality":0,
+          "ForceBlueprint":false,
+          "Blueprint":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Metal/PrimalItemArmor_MetalHelmet.PrimalItemArmor_MetalHelmet'"
+        },
+	      {
+          "Amount":1,
+          "Quality":0,
+          "ForceBlueprint":false,
+          "Blueprint":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Metal/PrimalItemArmor_MetalBoots.PrimalItemArmor_MetalBoots'"
+        },
+	      {
+          "Amount":1,
+          "Quality":0,
+          "ForceBlueprint":false,
+          "Blueprint":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Metal/PrimalItemArmor_MetalGloves.PrimalItemArmor_MetalGloves'"
+        },
+	      {
+          "Amount":1,
+          "Quality":0,
+          "ForceBlueprint":false,
+          "Blueprint":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItem_WeaponMetalPick.PrimalItem_WeaponMetalPick'"
+        },
+        {
+          "Amount":1,
+          "Quality":0,
+          "ForceBlueprint":false,
+          "Blueprint":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItem_WeaponMetalHatchet.PrimalItem_WeaponMetalHatchet'"
+        },
+        {  
+          "Amount":1,
+          "Quality":0,
+          "ForceBlueprint":false,
+          "Blueprint":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_PteroSaddle.PrimalItemArmor_PteroSaddle'"
+        }
+      ],
+      "Dinos":[  
+        {  
+          "Level":150,
+          "Blueprint":"Blueprint'/Game/PrimalEarth/Dinos/Ptero/Ptero_Character_BP.Ptero_Character_BP'"
+        }
+      ]
+    },
+	"rescate":{  
+      "DefaultAmount":1,
+      "Price":60,
+      "Description":"Kit VIP (ptera con montura)",
+      "Permissions":"Admins,Plata,Oro,Platino,Diamante,Moderador,Strike",
+      "Items":[  
+        {  
+          "Amount":1,
+          "Quality":0,
+          "ForceBlueprint":false,
+          "Blueprint":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Saddles/PrimalItemArmor_PteroSaddle.PrimalItemArmor_PteroSaddle'"
+        }
+      ],
+      "Dinos":[  
+        {  
+          "Level":150,
+          "Neutered":false,
+          "Blueprint":"Blueprint'/Game/PrimalEarth/Dinos/Ptero/Ptero_Character_BP.Ptero_Character_BP'"
+        }
+      ]
+    },
+    "arana":{  
+      "DefaultAmount":1,
+      "Price":2000,
+      "Description":"Kit Araña GAMMA - Kit de Invocacion de Araña Gamma",
+      "Permissions":"Plata,Oro,Platino,Diamante",
+      "Items":[  
+        {  
+          "Amount":1,
+          "Quality":0,
+          "ForceBlueprint":false,
+          "Blueprint":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Artifacts/PrimalItemArtifact_05.PrimalItemArtifact_05'"
+        },
+		{  
+          "Amount":1,
+          "Quality":0,
+          "ForceBlueprint":false,
+          "Blueprint":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Artifacts/PrimalItemArtifact_01.PrimalItemArtifact_01'"
+        },
+		{  
+          "Amount":1,
+          "Quality":0,
+          "ForceBlueprint":false,
+          "Blueprint":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Artifacts/PrimalItemArtifact_03.PrimalItemArtifact_03'"
+        }
+      ]
+    },
+	"aberration":{  
+      "DefaultAmount":1,
+      "Price":2000,
+      "Description":"Kit Aberration GAMMA - Kit de Invocacion de Aberration",
+      "Permissions":"Plata,Oro,Platino,Diamante",
+      "Items":[  
+        {  
+          "Amount":1,
+          "Quality":0,
+          "ForceBlueprint":false,
+          "Blueprint":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Artifacts/PrimalItemArtifact_05.PrimalItemArtifact_05'"
+        },
+		{  
+          "Amount":1,
+          "Quality":0,
+          "ForceBlueprint":false,
+          "Blueprint":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Artifacts/PrimalItemArtifact_01.PrimalItemArtifact_01'"
+        },
+		{  
+          "Amount":1,
+          "Quality":0,
+          "ForceBlueprint":false,
+          "Blueprint":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Artifacts/PrimalItemArtifact_03.PrimalItemArtifact_03'"
+        }
+      ]
+    },
+    "mono":{  
+      "DefaultAmount":1,
+      "Price":3000,
+      "Description":"Kit Mono GAMMA - Kit de Invocacion de Mono Gamma",
+      "Permissions":"Oro,Platino,Diamante",
+      "Items":[  
+        {  
+          "Amount":1,
+          "Quality":0,
+          "ForceBlueprint":false,
+          "Blueprint":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Artifacts/PrimalItemArtifact_02.PrimalItemArtifact_02'"
+        },
+		{  
+          "Amount":1,
+          "Quality":0,
+          "ForceBlueprint":false,
+          "Blueprint":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Artifacts/PrimalItemArtifact_12.PrimalItemArtifact_12'"
+        },
+		{  
+          "Amount":1,
+          "Quality":0,
+          "ForceBlueprint":false,
+          "Blueprint":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Artifacts/PrimalItemArtifact_07.PrimalItemArtifact_07'"
+        }
+      ]
+    },
+    "dragongamma":{  
+      "DefaultAmount":1,
+      "Price":4000,
+      "Description":"Kit Dragon GAMMA - Kit de Invocacion de Dragon Gamma",
+      "Permissions":"Platino,Diamante",
+      "Items":[  
+        {  
+          "Amount":1,
+          "Quality":0,
+          "ForceBlueprint":false,
+          "Blueprint":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Artifacts/PrimalItemArtifact_11.PrimalItemArtifact_11'"
+        },
+		{  
+          "Amount":1,
+          "Quality":0,
+          "ForceBlueprint":false,
+          "Blueprint":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Artifacts/PrimalItemArtifact_08.PrimalItemArtifact_08'"
+        },
+		{  
+          "Amount":1,
+          "Quality":0,
+          "ForceBlueprint":false,
+          "Blueprint":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Artifacts/PrimalItemArtifact_06.PrimalItemArtifact_06'"
+        },
+		{  
+          "Amount":1,
+          "Quality":0,
+          "ForceBlueprint":false,
+          "Blueprint":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Artifacts/PrimalItemArtifact_04.PrimalItemArtifact_04'"
+        },
+		{  
+          "Amount":1,
+          "Quality":0,
+          "ForceBlueprint":false,
+          "Blueprint":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Artifacts/PrimalItemArtifact_09.PrimalItemArtifact_09'"
+        }
+      ]
+    },
+    "dragonbetta":{  
+      "DefaultAmount":1,
+      "Price":8000,
+      "Description":"Kit Dragon BETTA - Kit de Invocacion de Dragon BETTA",
+      "Permissions":"Platino,Diamante",
+      "Items":[  
+        {  
+          "Amount":1,
+          "Quality":0,
+          "ForceBlueprint":false,
+          "Blueprint":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Artifacts/PrimalItemArtifact_11.PrimalItemArtifact_11'"
+        },
+		{  
+          "Amount":1,
+          "Quality":0,
+          "ForceBlueprint":false,
+          "Blueprint":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Artifacts/PrimalItemArtifact_08.PrimalItemArtifact_08'"
+        },
+		{  
+          "Amount":1,
+          "Quality":0,
+          "ForceBlueprint":false,
+          "Blueprint":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Artifacts/PrimalItemArtifact_06.PrimalItemArtifact_06'"
+        },
+		{  
+          "Amount":1,
+          "Quality":0,
+          "ForceBlueprint":false,
+          "Blueprint":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Artifacts/PrimalItemArtifact_04.PrimalItemArtifact_04'"
+        },
+		{  
+          "Amount":1,
+          "Quality":0,
+          "ForceBlueprint":false,
+          "Blueprint":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Artifacts/PrimalItemArtifact_09.PrimalItemArtifact_09'"
+        },
+		{  
+          "Amount":3,
+          "Quality":0,
+          "ForceBlueprint":false,
+          "Blueprint":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_FireWyvern.PrimalItemResource_ApexDrop_FireWyvern'"
+        },
+		{  
+          "Amount":3,
+          "Quality":0,
+          "ForceBlueprint":false,
+          "Blueprint":"Blueprint'/Game/PrimalEarth/Dinos/CrystalWyvern/PrimalItemResource_ApexDrop_CrystalWyvern.PrimalItemResource_ApexDrop_CrystalWyvern'"
+        }
+      ]
+    },
+    "manticora":{  
+      "DefaultAmount":1,
+      "Price":6000,
+      "Description":"Kit Manticora GAMMA - Kit de Invocacion de Manticora Gamma",
+      "Permissions":"Diamante",
+      "Items":[  
+        {  
+          "Amount":2,
+          "Quality":0,
+          "ForceBlueprint":false,
+          "Blueprint":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_FireWyvern.PrimalItemResource_ApexDrop_FireWyvern'"
+        },
+		{  
+          "Amount":2,
+          "Quality":0,
+          "ForceBlueprint":false,
+          "Blueprint":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_LightningWyvern.PrimalItemResource_ApexDrop_LightningWyvern'"
+        },
+		{  
+          "Amount":2,
+          "Quality":0,
+          "ForceBlueprint":false,
+          "Blueprint":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_PoisonWyvern.PrimalItemResource_ApexDrop_PoisonWyvern'"
+        },
+		{  
+          "Amount":1,
+          "Quality":0,
+          "ForceBlueprint":false,
+          "Blueprint":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Artifacts/PrimalItemArtifactSE_01.PrimalItemArtifactSE_01'"
+        },
+		{  
+          "Amount":1,
+          "Quality":0,
+          "ForceBlueprint":false,
+          "Blueprint":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Artifacts/PrimalItemArtifactSE_02.PrimalItemArtifactSE_02'"
+        },
+		{  
+          "Amount":1,
+          "Quality":0,
+          "ForceBlueprint":false,
+          "Blueprint":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Artifacts/PrimalItemArtifactSE_03.PrimalItemArtifactSE_03'"
+        }
+      ]
+    },
+    "chibiovi":{  
+      "DefaultAmount":1,
+      "Price":3000,
+      "Description":"Chibbi Ovi",
+      "Permissions":"Oro",
+      "Items":[  
+        {  
+          "Amount":1,
+          "Quality":0,
+          "ForceBlueprint":false,
+          "Blueprint":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Sheep.PrimalItemSkin_ChibiDino_Sheep'"
+        }
+      ]
+    },
+    "chibirex":{  
+      "DefaultAmount":1,
+      "Price":3000,
+      "Description":"Chibbi Rex",
+      "Permissions":"Platino",
+      "Items":[  
+        {  
+          "Amount":1,
+          "Quality":0,
+          "ForceBlueprint":false,
+          "Blueprint":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_Rex.PrimalItemSkin_ChibiDino_Rex'"
+        }
+      ]
+    },
+    "chibigolem":{  
+      "DefaultAmount":1,
+      "Price":3000,
+      "Description":"Chibbi Golem",
+      "Permissions":"Diamante",
+      "Items":[  
+        {  
+          "Amount":1,
+          "Quality":0,
+          "ForceBlueprint":false,
+          "Blueprint":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Armor/Skin/ChibiDinos/PrimalItemSkin_ChibiDino_RockGolem.PrimalItemSkin_ChibiDino_RockGolem'"
+        }
+      ]
+    }
+  },
+  "ShopItems":{
+	"tcol":{
+      "Type":"command",
+      "Description":"1 Token para Pintar tu Dino",
+      "Price":300,
+      "Items":[
+        {
+          "Command":"ADC.add {steamid} 1"
+        }
+      ]
+    },
+	"tgen":{
+      "Type":"command",
+      "Description":"1 Token para cambiar el genero de tu Dino",
+      "Price":1000,
+      "Items":[
+        {
+          "Command":"gc.addtokens {steamid} 1"
+        }
+      ]
+    },
+	"cal":{
+        "Type":"item",
+        "Description":"Cerebro de Allo",
+        "Price":50,
+        "Items":[{
+                "Quality":2,
+                "ForceBlueprint":false,
+                "Amount":1,
+                "Blueprint":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_Allo.PrimalItemResource_ApexDrop_Allo'"}]
+    },
+    "gar":{
+        "Type":"item",
+        "Description":"Garra de argentavis",
+        "Price":50,
+        "Items":[{
+                "Quality":2,
+                "ForceBlueprint":false,
+                "Amount":1,
+                "Blueprint":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_Argentavis.PrimalItemResource_ApexDrop_Argentavis'"}]
+    },
+    "gca":{
+        "Type":"item",
+        "Description":"Garra de Cristal Alpha",
+        "Price":2000,
+        "Items":[{
+                "Quality":2,
+                "ForceBlueprint":false,
+                "Amount":1,
+                "Blueprint":"Blueprint'/Game/PrimalEarth/Dinos/CrystalWyvern/Mega/PrimalItemResource_ApexDrop_AlphaCrystalWyvern.PrimalItemResource_ApexDrop_AlphaCrystalWyvern'"}]
+    },
+    "crp":{
+        "Type":"item",
+        "Description":"Crystal Prime",
+        "Price":50,
+        "Items":[{
+                "Quality":2,
+                "ForceBlueprint":false,
+                "Amount":1,
+                "Blueprint":"Blueprint'/Game/PrimalEarth/Dinos/CrystalWyvern/CrystalResources/Primal/PrimalItemResource_Crystal_IslesPrimal.PrimalItemResource_Crystal_IslesPrimal'"}]
+    },
+    "eba":{
+        "Type":"item",
+        "Description":"Escama de basilisco",
+        "Price":500,
+        "Items":[{
+                "Quality":2,
+                "ForceBlueprint":false,
+                "Amount":1,
+                "Blueprint":"Blueprint'/Game/Aberration/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_Basilisk.PrimalItemResource_ApexDrop_Basilisk'"}]
+    },
+    "gba":{
+        "Type":"item",
+        "Description":"Grasa de basilo",
+        "Price":500,
+        "Items":[{
+                "Quality":2,
+                "ForceBlueprint":false,
+                "Amount":1,
+                "Blueprint":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_Basilo.PrimalItemResource_ApexDrop_Basilo'"}]
+    },
+    "gcr":{
+        "Type":"item",
+        "Description":"Garra de crystal",
+        "Price":100,
+        "Items":[{
+                "Quality":2,
+                "ForceBlueprint":false,
+                "Amount":1,
+                "Blueprint":"Blueprint'/Game/PrimalEarth/Dinos/CrystalWyvern/PrimalItemResource_ApexDrop_CrystalWyvern.PrimalItemResource_ApexDrop_CrystalWyvern'"}]
+    },
+    "gfu":{
+        "Type":"item",
+        "Description":"Garra de dragón de fuego",
+        "Price":100,
+        "Items":[{
+                "Quality":2,
+                "ForceBlueprint":false,
+                "Amount":1,
+                "Blueprint":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_FireWyvern.PrimalItemResource_ApexDrop_FireWyvern'"}]
+    },
+    "cgi":{
+        "Type":"item",
+        "Description":"Corazon de giga",
+        "Price":1000,
+        "Items":[{
+                "Quality":2,
+                "ForceBlueprint":false,
+                "Amount":1,
+                "Blueprint":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_Giga.PrimalItemResource_ApexDrop_Giga'"}]
+    },
+    "dme":{
+        "Type":"item",
+        "Description":"Diente de megalodón",
+        "Price":50,
+        "Items":[{
+                "Quality":2,
+                "ForceBlueprint":false,
+                "Amount":1,
+                "Blueprint":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_Megalodon.PrimalItemResource_ApexDrop_Megalodon'"}]
+    },
+    "gra":{
+        "Type":"item",
+        "Description":"Garra de dragón de rayo",
+        "Price":100,
+        "Items":[{
+                "Quality":2,
+                "ForceBlueprint":false,
+                "Amount":1,
+                "Blueprint":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_LightningWyvern.PrimalItemResource_ApexDrop_LightningWyvern'"}]
+    },
+    "gve":{
+        "Type":"item",
+        "Description":"Garra de dragón de veneno",
+        "Price":100,
+        "Items":[{
+                "Quality":2,
+                "ForceBlueprint":false,
+                "Amount":1,
+                "Blueprint":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_PoisonWyvern.PrimalItemResource_ApexDrop_PoisonWyvern'"}]
+    },
+    "tme":{
+        "Type":"item",
+        "Description":"Toxina de megalania",
+        "Price":1000,
+        "Items":[{
+                "Quality":2,
+                "ForceBlueprint":false,
+                "Amount":1,
+                "Blueprint":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_Megalania.PrimalItemResource_ApexDrop_Megalania'"}]
+    },
+    "pro":{
+        "Type":"item",
+        "Description":"Pluma de rockdrake",
+        "Price":300,
+        "Items":[{
+                "Quality":2,
+                "ForceBlueprint":false,
+                "Amount":1,
+                "Blueprint":"Blueprint'/Game/Aberration/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_RockDrake.PrimalItemResource_ApexDrop_RockDrake'"}]
+    },
+    "fre":{
+        "Type":"item",
+        "Description":"Feromona de reaper",
+        "Price":1000,
+        "Items":[{
+                "Quality":2,
+                "ForceBlueprint":false,
+                "Amount":1,
+                "Blueprint":"Blueprint'/Game/Aberration/CoreBlueprints/Resources/PrimalItemResource_XenomorphPheromoneGland.PrimalItemResource_XenomorphPheromoneGland'"}]
+    },
+    "psa":{
+        "Type":"item",
+        "Description":"Piel de sarco",
+        "Price":500,
+        "Items":[{
+                "Quality":2,
+                "ForceBlueprint":false,
+                "Amount":1,
+                "Blueprint":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_Sarco.PrimalItemResource_ApexDrop_Sarco'"}]
+    },
+    "vsa":{
+        "Type":"item",
+        "Description":"Vértebra de Sauro",
+        "Price":100,
+        "Items":[{
+                "Quality":2,
+                "ForceBlueprint":false,
+                "Amount":1,
+                "Blueprint":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_Sauro.PrimalItemResource_ApexDrop_Sauro'"}]
+    },
+    "crs":{
+        "Type":"item",
+        "Description":"Cresta de espino",
+        "Price":300,
+        "Items":[{
+                "Quality":2,
+                "ForceBlueprint":false,
+                "Amount":1,
+                "Blueprint":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_Spino.PrimalItemResource_ApexDrop_Spino'"}]
+    },
+    "gte":{
+        "Type":"item",
+        "Description":"Garra de terizino",
+        "Price":500,
+        "Items":[{
+                "Quality":2,
+                "ForceBlueprint":false,
+                "Amount":1,
+                "Blueprint":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_Theriz.PrimalItemResource_ApexDrop_Theriz'"}]
+    },
+    "gth":{
+        "Type":"item",
+        "Description":"Garra de thylacoleo",
+        "Price":800,
+        "Items":[{
+                "Quality":2,
+                "ForceBlueprint":false,
+                "Amount":1,
+                "Blueprint":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_Thylaco.PrimalItemResource_ApexDrop_Thylaco'"}]
+    },
+    "vti":{
+        "Type":"item",
+        "Description":"Veneno de titanoboa",
+        "Price":500,
+        "Items":[{
+                "Quality":2,
+                "ForceBlueprint":false,
+                "Amount":1,
+                "Blueprint":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_Boa.PrimalItemResource_ApexDrop_Boa'"}]
+    },
+    "ttu":{
+        "Type":"item",
+        "Description":"Tentáculo de tuso",
+        "Price":500,
+        "Items":[{
+                "Quality":2,
+                "ForceBlueprint":false,
+                "Amount":1,
+                "Blueprint":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_Tuso.PrimalItemResource_ApexDrop_Tuso'"}]
+    },
+    "bre":{
+        "Type":"item",
+        "Description":"Brazo de rex",
+        "Price":200,
+        "Items":[{
+                "Quality":2,
+                "ForceBlueprint":false,
+                "Amount":1,
+                "Blueprint":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_Rex.PrimalItemResource_ApexDrop_Rex'"}]
+    },
+    "pyu":{
+        "Type":"item",
+        "Description":"Pulmon de yuty",
+        "Price":500,
+        "Items":[{
+                "Quality":2,
+                "ForceBlueprint":false,
+                "Amount":1,
+                "Blueprint":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_Yuty.PrimalItemResource_ApexDrop_Yuty'"}]
+    },
+    "cba":{
+        "Type":"item",
+        "Description":"Colmillo Basilisco Alpha",
+        "Price":5000,
+        "Items":[{
+                "Quality":2,
+                "ForceBlueprint":false,
+                "Amount":1,
+                "Blueprint":"Blueprint'/Game/Aberration/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_Basilisk_Alpha.PrimalItemResource_ApexDrop_Basilisk_Alpha'"}]
+    },
+    "pka":{
+        "Type":"item",
+        "Description":"Pinza Karkinos Alpha",
+        "Price":5000,
+        "Items":[{
+                "Quality":2,
+                "ForceBlueprint":false,
+                "Amount":1,
+                "Blueprint":"Blueprint'/Game/Aberration/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_CrabClaw.PrimalItemResource_ApexDrop_CrabClaw'"}]
+    },
+    "pra":{
+        "Type":"item",
+        "Description":"Púa Rey Segador Alpha",
+        "Price":5000,
+        "Items":[{
+                "Quality":2,
+                "ForceBlueprint":false,
+                "Amount":1,
+                "Blueprint":"Blueprint'/Game/Aberration/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_ReaperBarb.PrimalItemResource_ApexDrop_ReaperBarb'"}]
+    },
+    "vna":{
+        "Type":"item",
+        "Description":"Veneno Nameless",
+        "Price":50,
+        "Items":[{
+                "Quality":2,
+                "ForceBlueprint":false,
+                "Amount":1,
+                "Blueprint":"Blueprint'/Game/Aberration/CoreBlueprints/Resources/PrimalItemConsumable_NamelessVenom.PrimalItemConsumable_NamelessVenom'"}]
+    },
+    "pve":{
+        "Type":"item",
+        "Description":"Pastel vegetal",
+        "Price":100,
+        "Items":[{
+                "Quality":2,
+                "ForceBlueprint":false,
+                "Amount":1,
+                "Blueprint":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_SweetVeggieCake.PrimalItemConsumable_SweetVeggieCake'"}]
+    },
+    "ant":{
+        "Type":"item",
+        "Description":"Antídoto",
+        "Price":100,
+        "Items":[{
+                "Quality":2,
+                "ForceBlueprint":false,
+                "Amount":1,
+                "Blueprint":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/BaseBPs/PrimalItemConsumable_CureLow.PrimalItemConsumable_CureLow'"}]
+    },
+    "cer":{
+        "Type":"item",
+        "Description":"Cerveza",
+        "Price":300,
+        "Items":[{
+                "Quality":2,
+                "ForceBlueprint":false,
+                "Amount":1,
+                "Blueprint":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_BeerJar.PrimalItemConsumable_BeerJar'"}]
+    },
+    "kba":{
+        "Type":"item",
+        "Description":"Kibble básico",
+        "Price":50,
+        "Items":[{
+                "Quality":2,
+                "ForceBlueprint":false,
+                "Amount":1,
+                "Blueprint":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_Base_XSmall.PrimalItemConsumable_Kibble_Base_XSmall'"}]
+    },
+    "ksi":{
+        "Type":"item",
+        "Description":"kibble simple",
+        "Price":75,
+        "Items":[{
+                "Quality":2,
+                "ForceBlueprint":false,
+                "Amount":1,
+                "Blueprint":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_Base_Small.PrimalItemConsumable_Kibble_Base_Small'"}]
+    },
+    "kre":{
+        "Type":"item",
+        "Description":"Kibble regular",
+        "Price":100,
+        "Items":[{
+                "Quality":2,
+                "ForceBlueprint":false,
+                "Amount":1,
+                "Blueprint":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_Base_Medium.PrimalItemConsumable_Kibble_Base_Medium'"}]
+    },
+    "ksu":{
+        "Type":"item",
+        "Description":"Kibble superior",
+        "Price":125,
+        "Items":[{
+                "Quality":2,
+                "ForceBlueprint":false,
+                "Amount":1,
+                "Blueprint":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_Base_Large.PrimalItemConsumable_Kibble_Base_Large'"}]
+    },
+    "kep":{
+        "Type":"item",
+        "Description":"Kibble excepcional",
+        "Price":150,
+        "Items":[{
+                "Quality":2,
+                "ForceBlueprint":false,
+                "Amount":1,
+                "Blueprint":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_Base_XLarge.PrimalItemConsumable_Kibble_Base_XLarge'"}]
+    },
+    "ket":{
+        "Type":"item",
+        "Description":"Kibble extraordinario",
+        "Price":175,
+        "Items":[{
+                "Quality":2,
+                "ForceBlueprint":false,
+                "Amount":1,
+                "Blueprint":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Kibble_Base_Special.PrimalItemConsumable_Kibble_Base_Special'"}]
+    },
+    "min":{
+        "Type":"item",
+        "Description":"Mindwipe",
+        "Price":300,
+        "Items":[{
+                "Quality":2,
+                "ForceBlueprint":false,
+                "Amount":1,
+                "Blueprint":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/BaseBPs/PrimalItemConsumableRespecSoup.PrimalItemConsumableRespecSoup'"}]
+    },
+    "cpi":{
+        "Type":"item",
+        "Description":"Chili picante",
+        "Price":150,
+        "Items":[{
+                "Quality":2,
+                "ForceBlueprint":false,
+                "Amount":1,
+                "Blueprint":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Soup_FocalChili.PrimalItemConsumable_Soup_FocalChili'"}]
+    },
+    "ele":{
+        "Type":"item",
+        "Description":"Elemento",
+        "Price":500,
+        "Items":[{
+                "Quality":2,
+                "ForceBlueprint":false,
+                "Amount":1,
+                "Blueprint":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Element.PrimalItemResource_Element'"}]
+    },
+    "mut":{
+        "Type":"item",
+        "Description":"Mutágeno",
+        "Price":300,
+        "Items":[{
+                "Quality":2,
+                "ForceBlueprint":false,
+                "Amount":1,
+                "Blueprint":"Blueprint'/Game/Genesis2/CoreBlueprints/Environment/Mutagen/PrimalItemConsumable_Mutagen.PrimalItemConsumable_Mutagen'"}]
+    },
+    "cco":{
+        "Type":"item",
+        "Description":"Carne cocida",
+        "Price":50,
+        "Items":[{
+                "Quality":2,
+                "ForceBlueprint":false,
+                "Amount":50,
+                "Blueprint":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_CookedMeat.PrimalItemConsumable_CookedMeat'"}]
+    },
+    "lwy":{
+        "Type":"item",
+        "Description":"Leche de wyvern",
+        "Price":50,
+        "Items":[{
+                "Quality":2,
+                "ForceBlueprint":false,
+                "Amount":1,
+                "Blueprint":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/BaseBPs/PrimalItemConsumable_WyvernMilk.PrimalItemConsumable_WyvernMilk'"}]
+    },
+    "ces":{
+        "Type":"item",
+        "Description":"Estimulantes",
+        "Price":50,
+        "Items":[{
+                "Quality":2,
+                "ForceBlueprint":false,
+                "Amount":10,
+                "Blueprint":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Stimulant.PrimalItemConsumable_Stimulant'"}]
+    },
+    "cna":{
+        "Type":"item",
+        "Description":"Narcóticos",
+        "Price":50,
+        "Items":[{
+                "Quality":2,
+                "ForceBlueprint":false,
+                "Amount":10,
+                "Blueprint":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Narcotic.PrimalItemConsumable_Narcotic'"}]
+    },
+    "bal":{
+        "Type":"item",
+        "Description":"Ballesta",
+        "Price":100,
+        "Items":[{
+                "Quality":2,
+                "ForceBlueprint":false,
+                "Amount":1,
+                "Blueprint":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItem_WeaponCrossbow.PrimalItem_WeaponCrossbow'"}]
+    },
+    "gan":{
+        "Type":"item",
+        "Description":"Gancho",
+        "Price":100,
+        "Items":[{
+                "Quality":2,
+                "ForceBlueprint":false,
+                "Amount":1,
+                "Blueprint":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItemAmmo_GrapplingHook.PrimalItemAmmo_GrapplingHook'"}]
+    },
+    "gps":{
+        "Type":"item",
+        "Description":"GPS",
+        "Price":100,
+        "Items":[{
+                "Quality":2,
+                "ForceBlueprint":false,
+                "Amount":1,
+                "Blueprint":"Blueprint'/Game/PrimalEarth/Test/PrimalItem_WeaponGPS.PrimalItem_WeaponGPS'"}]
+    },
+    "cat":{
+        "Type":"item",
+        "Description":"Catalejo",
+        "Price":100,
+        "Items":[{
+                "Quality":2,
+                "ForceBlueprint":false,
+                "Amount":1,
+                "Blueprint":"Blueprint'/Game/PrimalEarth/Test/PrimalItem_WeaponSpyglass.PrimalItem_WeaponSpyglass'"}]
+    },
+    "pic":{
+        "Type":"item",
+        "Description":"Pico metal",
+        "Price":10,
+        "Items":[{
+                "Quality":2,
+                "ForceBlueprint":false,
+                "Amount":1,
+                "Blueprint":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItem_WeaponMetalPick.PrimalItem_WeaponMetalPick'"}]
+    },
+    "hac":{
+        "Type":"item",
+        "Description":"Hacha metal",
+        "Price":10,
+        "Items":[{
+                "Quality":2,
+                "ForceBlueprint":false,
+                "Amount":1,
+                "Blueprint":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Weapons/PrimalItem_WeaponMetalHatchet.PrimalItem_WeaponMetalHatchet'"}]
+    },
+    "cry":{
+        "Type":"item",
+        "Description":"Cryopod",
+        "Price":25,
+        "Items":[{
+                "Quality":2,
+                "ForceBlueprint":false,
+                "Amount":1,
+                "Blueprint":"Blueprint'/Game/Extinction/CoreBlueprints/Weapons/PrimalItem_WeaponEmptyCryopod.PrimalItem_WeaponEmptyCryopod'"}]
+	}
+},
+  "SellItems":{  
+	"amb":{
+		"Type":"item",
+		"Description":"Amber gris",
+		"Price":1,
+		"Amount":50,
+		"Blueprint":"Blueprint'/Game/Genesis/Dinos/SpaceWhale/PrimalItemResource_Ambergris.PrimalItemResource_Ambergris'"
+	},
+	"azu":{
+		"Type":"item",
+		"Description":"Azufre",
+		"Price":3,
+		"Amount":1000,
+		"Blueprint":"Blueprint'/Game/ScorchedEarth/CoreBlueprints/Resources/PrimalItemResource_Sulfur.PrimalItemResource_Sulfur'"
+	},
+	"gas":{
+		"Type":"item",
+		"Description":"Bola de gas",
+		"Price":3,
+		"Amount":1000,
+		"Blueprint":"Blueprint'/Game/Aberration/CoreBlueprints/Resources/PrimalItemResource_Gas.PrimalItemResource_Gas'"
+	},
+	"car":{
+		"Type":"item",
+		"Description":"Carbon",
+		"Price":1,
+		"Amount":1000,
+		"Blueprint":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Charcoal.PrimalItemResource_Charcoal'"
+	},
+	"cem":{
+		"Type":"item",
+		"Description":"Cemento",
+		"Price":5,
+		"Amount":1000,
+		"Blueprint":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ChitinPaste.PrimalItemResource_ChitinPaste'"
+	},
+	"cha":{
+		"Type":"item",
+		"Description":"Chatarra",
+		"Price":8,
+		"Amount":1000,
+		"Blueprint":"Blueprint'/Game/Extinction/CoreBlueprints/Resources/PrimalItemResource_ScrapMetal.PrimalItemResource_ScrapMetal'"
+	},
+	"elc":{
+		"Type":"item",
+		"Description":"Electrónicos",
+		"Price":8,
+		"Amount":1000,
+		"Blueprint":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Electronics.PrimalItemResource_Electronics'"
+	},
+	"est":{
+		"Type":"item",
+		"Description":"Estimulantes",
+		"Price":5,
+		"Amount":1000,
+		"Blueprint":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Stimulant.PrimalItemConsumable_Stimulant'"
+	},
+	"gea":{
+		"Type":"item",
+		"Description":"Gema azul",
+		"Price":3,
+		"Amount":1000,
+		"Blueprint":"Blueprint'/Game/Aberration/CoreBlueprints/Resources/PrimalItemResource_Gem_BioLum.PrimalItemResource_Gem_BioLum'"
+	},
+	"ger":{
+		"Type":"item",
+		"Description":"Gema roja",
+		"Price":3,
+		"Amount":1000,
+		"Blueprint":"Blueprint'/Game/Aberration/CoreBlueprints/Resources/PrimalItemResource_Gem_Element.PrimalItemResource_Gem_Element'"
+	},
+	"gev":{
+		"Type":"item",
+		"Description":"Gema verde",
+		"Price":3,
+		"Amount":1000,
+		"Blueprint":"Blueprint'/Game/Aberration/CoreBlueprints/Resources/PrimalItemResource_Gem_Fertile.PrimalItemResource_Gem_Fertile'"
+	},
+	"mfu":{
+		"Type":"item",
+		"Description":"Madera Fúngica",
+		"Price":2,
+		"Amount":1000,
+		"Blueprint":"Blueprint'/Game/Aberration/CoreBlueprints/Resources/PrimalItemResource_FungalWood.PrimalItemResource_FungalWood'"
+	},
+	"nar":{
+		"Type":"item",
+		"Description":"Narcóticos",
+		"Price":5,
+		"Amount":1000,
+		"Blueprint":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Narcotic.PrimalItemConsumable_Narcotic'"
+	},
+	"pel":{
+		"Type":"item",
+		"Description":"Pelaje",
+		"Price":1,
+		"Amount":1000,
+		"Blueprint":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Pelt.PrimalItemResource_Pelt'"
+	},
+	"peb":{
+		"Type":"item",
+		"Description":"Perla blanca",
+		"Price":2,
+		"Amount":1000,
+		"Blueprint":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Silicon.PrimalItemResource_Silicon'"
+	},
+	"pen":{
+		"Type":"item",
+		"Description":"Perla negra",
+		"Price":8,
+		"Amount":1000,
+		"Blueprint":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_BlackPearl.PrimalItemResource_BlackPearl'"
+	},
+	"pie":{
+		"Type":"item",
+		"Description":"Piel",
+		"Price":2,
+		"Amount":1000,
+		"Blueprint":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Hide.PrimalItemResource_Hide'"
+	},
+	"pmr":{
+		"Type":"item",
+		"Description":"Polímero",
+		"Price":8,
+		"Amount":1000,
+		"Blueprint":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Polymer.PrimalItemResource_Polymer'"
+	},
+	"poe":{
+		"Type":"item",
+		"Description":"Polvo de elemento",
+		"Price":3,
+		"Amount":1000,
+		"Blueprint":"Blueprint'/Game/Extinction/CoreBlueprints/Resources/PrimalItemResource_ElementDust.PrimalItemResource_ElementDust'"
+	},
+	"pol":{
+		"Type":"item",
+		"Description":"Pólvora",
+		"Price":5,
+		"Amount":1000,
+		"Blueprint":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Gunpowder.PrimalItemResource_Gunpowder'"
+	},
+	"sav":{
+		"Type":"item",
+		"Description":"Savia",
+		"Price":2,
+		"Amount":1000,
+		"Blueprint":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Sap.PrimalItemResource_Sap'"
+	},
+	"sed":{
+		"Type":"item",
+		"Description":"Seda",
+		"Price":3,
+		"Amount":1000,
+		"Blueprint":"Blueprint'/Game/ScorchedEarth/CoreBlueprints/Resources/PrimalItemResource_Silk.PrimalItemResource_Silk'"
+	},
+	"sus":{
+		"Type":"item",
+		"Description":"Sustrato absorbente",
+		"Price":8,
+		"Amount":1000,
+		"Blueprint":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_SubstrateAbsorbent.PrimalItemResource_SubstrateAbsorbent'"
+	},
+	"sil":{
+		"Type":"item",
+		"Description":"Silicate",
+		"Price":8,
+		"Amount":1000,
+		"Blueprint":"Blueprint'/Game/Extinction/CoreBlueprints/Resources/PrimalItemResource_Silicate.PrimalItemResource_Silicate'"
+	},
+	"bmo":{
+		"Type":"item",
+		"Description":"Bayas moradas",
+		"Price":1,
+		"Amount":1000,
+		"Blueprint":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Berry_Mejoberry.PrimalItemConsumable_Berry_Mejoberry'"
+	},
+	"bro":{
+		"Type":"item",
+		"Description":"Bayas rojas",
+		"Price":1,
+		"Amount":1000,
+		"Blueprint":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Berry_Tintoberry.PrimalItemConsumable_Berry_Tintoberry'"
+	},
+	"baz":{
+		"Type":"item",
+		"Description":"Bayas azules",
+		"Price":1,
+		"Amount":1000,
+		"Blueprint":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Berry_Azulberry.PrimalItemConsumable_Berry_Azulberry'"
+	},
+	"bam":{
+		"Type":"item",
+		"Description":"Bayas amarillas",
+		"Price":1,
+		"Amount":1000,
+		"Blueprint":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Berry_Amarberry.PrimalItemConsumable_Berry_Amarberry'"
+	},
+	"bna":{
+		"Type":"item",
+		"Description":"Bayas narcóticas",
+		"Price":1,
+		"Amount":1000,
+		"Blueprint":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Berry_Narcoberry.PrimalItemConsumable_Berry_Narcoberry'"
+	},
+	"bes":{
+		"Type":"item",
+		"Description":"Bayas estimulantes",
+		"Price":1,
+		"Amount":1000,
+		"Blueprint":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Berry_Stimberry.PrimalItemConsumable_Berry_Stimberry'"
+	},
+	"mai":{
+		"Type":"item",
+		"Description":"Maíz",
+		"Price":8,
+		"Amount":1000,
+		"Blueprint":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Veggie_Longrass.PrimalItemConsumable_Veggie_Longrass'"
+	},
+	"pat":{
+		"Type":"item",
+		"Description":"Patata",
+		"Price":8,
+		"Amount":1000,
+		"Blueprint":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Veggie_Savoroot.PrimalItemConsumable_Veggie_Savoroot'"
+	},
+	"zan":{
+		"Type":"item",
+		"Description":"Zanahoria",
+		"Price":8,
+		"Amount":1000,
+		"Blueprint":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Veggie_Rockarrot.PrimalItemConsumable_Veggie_Rockarrot'"
+	},
+	"lim":{
+		"Type":"item",
+		"Description":"Limón",
+		"Price":8,
+		"Amount":1000,
+		"Blueprint":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Veggie_Citronal.PrimalItemConsumable_Veggie_Citronal'"
+	},
+	"set":{
+		"Type":"item",
+		"Description":"Setas raras",
+		"Price":2,
+		"Amount":1000,
+		"Blueprint":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_RareMushroom.PrimalItemResource_RareMushroom'"
+	},
+	"flo":{
+		"Type":"item",
+		"Description":"Flor rara",
+		"Price":2,
+		"Amount":1000,
+		"Blueprint":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_RareFlower.PrimalItemResource_RareFlower'"
+	},
+	"smo":{
+		"Type":"item",
+		"Description":"Semilla baya morada",
+		"Price":3,
+		"Amount":1000,
+		"Blueprint":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/Seeds/PrimalItemConsumable_Seed_Mejoberry.PrimalItemConsumable_Seed_Mejoberry'"
+	},
+	"sro":{
+		"Type":"item",
+		"Description":"Semilla baya roja",
+		"Price":3,
+		"Amount":1000,
+		"Blueprint":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/Seeds/PrimalItemConsumable_Seed_Tintoberry.PrimalItemConsumable_Seed_Tintoberry'"
+	},
+	"sam":{
+		"Type":"item",
+		"Description":"Semilla baya amarilla",
+		"Price":3,
+		"Amount":1000,
+		"Blueprint":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/Seeds/PrimalItemConsumable_Seed_Amarberry.PrimalItemConsumable_Seed_Amarberry'"
+	},
+	"saz":{
+		"Type":"item",
+		"Description":"Semilla baya azul",
+		"Price":3,
+		"Amount":1000,
+		"Blueprint":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/Seeds/PrimalItemConsumable_Seed_Azulberry.PrimalItemConsumable_Seed_Azulberry'"
+	},
+	"ses":{
+		"Type":"item",
+		"Description":"Semilla baya estimulante",
+		"Price":3,
+		"Amount":1000,
+		"Blueprint":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/Seeds/PrimalItemConsumable_Seed_Stimberry.PrimalItemConsumable_Seed_Stimberry'"
+	},
+	"sna":{
+		"Type":"item",
+		"Description":"Semilla baya narcótica",
+		"Price":3,
+		"Amount":1000,
+		"Blueprint":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/Seeds/PrimalItemConsumable_Seed_Narcoberry.PrimalItemConsumable_Seed_Narcoberry'"
+	},
+	"sma":{
+		"Type":"item",
+		"Description":"Semilla maíz",
+		"Price":3,
+		"Amount":1000,
+		"Blueprint":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/Seeds/PrimalItemConsumable_Seed_Longrass.PrimalItemConsumable_Seed_Longrass'"
+	},
+	"spa":{
+		"Type":"item",
+		"Description":"Semilla patata",
+		"Price":3,
+		"Amount":1000,
+		"Blueprint":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/Seeds/PrimalItemConsumable_Seed_Savoroot.PrimalItemConsumable_Seed_Savoroot'"
+	},
+	"sli":{
+		"Type":"item",
+		"Description":"Semilla limón",
+		"Price":3,
+		"Amount":1000,
+		"Blueprint":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/Seeds/PrimalItemConsumable_Seed_Citronal.PrimalItemConsumable_Seed_Citronal'"
+	},
+	"sza":{
+		"Type":"item",
+		"Description":"Semilla zanahoria",
+		"Price":3,
+		"Amount":1000,
+		"Blueprint":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Consumables/Seeds/PrimalItemConsumable_Seed_Rockarrot.PrimalItemConsumable_Seed_Rockarrot'"
+	},
+	"drg":{
+		"Type":"item",
+		"Description":"Cabeza de Dragón 1 - Gamma",
+		"Price":200,
+		"Amount":1,
+		"Blueprint":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Trophies/PrimalItemTrophy_Dragon_Gamma.PrimalItemTrophy_Dragon_Gamma'"
+	},
+	"drb":{
+		"Type":"item",
+		"Description":"Cabeza de Dragón 2 - Betta",
+		"Price":250,
+		"Amount":1,
+		"Blueprint":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Trophies/PrimalItemTrophy_Dragon_Beta.PrimalItemTrophy_Dragon_Beta'"
+	},
+	"dra":{
+		"Type":"item",
+		"Description":"Cabeza de Dragón 3 - Alpha",
+		"Price":300,
+		"Amount":1,
+		"Blueprint":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Trophies/PrimalItemTrophy_Dragon_Alpha.PrimalItemTrophy_Dragon_Alpha'"
+	},
+	"arg":{
+		"Type":"item",
+		"Description":"Cabeza de Araña 1 - Gamma",
+		"Price":100,
+		"Amount":1,
+		"Blueprint":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Trophies/PrimalItemTrophy_Broodmother_Gamma.PrimalItemTrophy_Broodmother_Gamma'"
+	},
+	"arb":{
+		"Type":"item",
+		"Description":"Cabeza de Araña 2 - Betta",
+		"Price":125,
+		"Amount":1,
+		"Blueprint":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Trophies/PrimalItemTrophy_Broodmother_Beta.PrimalItemTrophy_Broodmother_Beta'"
+	},
+	"ara":{
+		"Type":"item",
+		"Description":"Cabeza de Araña 3- Alpha",
+		"Price":150,
+		"Amount":1,
+		"Blueprint":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Trophies/PrimalItemTrophy_Broodmother_Alpha.PrimalItemTrophy_Broodmother_Alpha'"
+	},
+	"mog":{
+		"Type":"item",
+		"Description":"Cabeza de Mono 1 - Gamma",
+		"Price":100,
+		"Amount":1,
+		"Blueprint":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Trophies/PrimalItemTrophy_Gorilla_Gamma.PrimalItemTrophy_Gorilla_Gamma'"
+	},
+	"mob":{
+		"Type":"item",
+		"Description":"Cabeza de Mono 2 - Betta",
+		"Price":125,
+		"Amount":1,
+		"Blueprint":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Trophies/PrimalItemTrophy_Gorilla_Beta.PrimalItemTrophy_Gorilla_Beta'"
+	},
+	"moa":{
+		"Type":"item",
+		"Description":"Cabeza de Mono 3 - Alpha",
+		"Price":150,
+		"Amount":1,
+		"Blueprint":"Blueprint'/Game/PrimalEarth/CoreBlueprints/Items/Trophies/PrimalItemTrophy_Gorilla_Alpha.PrimalItemTrophy_Gorilla_Alpha'"
+	},
+	"mag":{
+		"Type":"item",
+		"Description":"Cabeza de Mantícora 1 - Gamma",
+		"Price":100,
+		"Amount":1,
+		"Blueprint":"Blueprint'/Game/ScorchedEarth/Structures/TrophyHeads/Manticore_Trophy/PrimalItemTrophy_Manticore_Gamma.PrimalItemTrophy_Manticore_Gamma'"
+	},
+	"mab":{
+		"Type":"item",
+		"Description":"Cabeza de Mantícora 2 - Betta",
+		"Price":150,
+		"Amount":1,
+		"Blueprint":"Blueprint'/Game/ScorchedEarth/Structures/TrophyHeads/Manticore_Trophy/PrimalItemTrophy_Manticore_Beta.PrimalItemTrophy_Manticore_Beta'"
+	},
+	"maa":{
+		"Type":"item",
+		"Description":"Cabeza de Mantícora 3 - Alpha",
+		"Price":200,
+		"Amount":1,
+		"Blueprint":"Blueprint'/Game/ScorchedEarth/Structures/TrophyHeads/Manticore_Trophy/PrimalItemTrophy_Manticore_Alpha.PrimalItemTrophy_Manticore_Alpha'"
+	},
+	"tbo":{
+		"Type":"item",
+		"Description":"Cabeza de Titán del Bosque",
+		"Price":100,
+		"Amount":1,
+		"Blueprint":"Blueprint'/Game/Extinction/CoreBlueprints/Trophies/PrimalItemTrophy_Kaiju_Forest.PrimalItemTrophy_Kaiju_Forest'"
+	},
+	"tde":{
+		"Type":"item",
+		"Description":"Cabeza del Titán del Desierto",
+		"Price":100,
+		"Amount":1,
+		"Blueprint":"Blueprint'/Game/Extinction/CoreBlueprints/Trophies/PrimalItemTrophy_Kaiju_Desert.PrimalItemTrophy_Kaiju_Desert'"
+	},
+	"thi":{
+		"Type":"item",
+		"Description":"Cabeza del Titán del Hielo",
+		"Price":100,
+		"Amount":1,
+		"Blueprint":"Blueprint'/Game/Extinction/CoreBlueprints/Trophies/PrimalItemTrophy_Kaiju_Ice.PrimalItemTrophy_Kaiju_Ice'"
+	},
+	"ktg":{
+		"Type":"item",
+		"Description":"Cabeza de King Titan 1 - Gamma",
+		"Price":400,
+		"Amount":1,
+		"Blueprint":"Blueprint'/Game/Extinction/CoreBlueprints/Trophies/PrimalItemTrophy_Kaiju_King_Gamma.PrimalItemTrophy_Kaiju_King_Gamma'"
+	},
+	"ktb":{
+		"Type":"item",
+		"Description":"Cabeza de King Titan 2 - Betta",
+		"Price":850,
+		"Amount":1,
+		"Blueprint":"Blueprint'/Game/Extinction/CoreBlueprints/Trophies/PrimalItemTrophy_Kaiju_King_Beta.PrimalItemTrophy_Kaiju_King_Beta'"
+	},
+	"kta":{
+		"Type":"item",
+		"Description":"Cabeza de King Titan 3 - Alpha",
+		"Price":1300,
+		"Amount":1,
+		"Blueprint":"Blueprint'/Game/Extinction/CoreBlueprints/Trophies/PrimalItemTrophy_Kaiju_King_Alpha.PrimalItemTrophy_Kaiju_King_Alpha'"
+	},
+	"qwg":{
+		"Type":"item",
+		"Description":"Cabeza de Queen Wyvern 1 - Gamma",
+		"Price":200,
+		"Amount":1,
+		"Blueprint":"Blueprint'/Game/Mods/CrystalIsles/Assets/Dinos/CIBoss/Trophy/PrimalItemTrophy_CIBoss_Gamma.PrimalItemTrophy_CIBoss_Gamma'"
+	},
+	"qwb":{
+		"Type":"item",
+		"Description":"Cabeza de Queen Wyvern 2 - Betta",
+		"Price":250,
+		"Amount":1,
+		"Blueprint":"Blueprint'/Game/Mods/CrystalIsles/Assets/Dinos/CIBoss/Trophy/PrimalItemTrophy_CIBoss_Beta.PrimalItemTrophy_CIBoss_Beta'"
+	},
+	"qwa":{
+		"Type":"item",
+		"Description":"Cabeza de Queen Wyvern 3 - Alpha",
+		"Price":300,
+		"Amount":1,
+		"Blueprint":"Blueprint'/Game/Mods/CrystalIsles/Assets/Dinos/CIBoss/Trophy/PrimalItemTrophy_CIBoss_Alpha.PrimalItemTrophy_CIBoss_Alpha'"
+	},
+	"abg":{
+		"Type":"item",
+		"Description":"Cabeza de Rockwell Abe 1 - Gamma",
+		"Price":200,
+		"Amount":1,
+		"Blueprint":"Blueprint'/Game/Aberration/CoreBlueprints/Items/Trophies/PrimalItemTrophy_Rockwell.PrimalItemTrophy_Rockwell'"
+	},
+	"abb":{
+		"Type":"item",
+		"Description":"Cabeza de Rockwell Abe 2 - Betta",
+		"Price":300,
+		"Amount":1,
+		"Blueprint":"Blueprint'/Game/Aberration/CoreBlueprints/Items/Trophies/PrimalItemTrophy_Rockwell_Beta.PrimalItemTrophy_Rockwell_Beta'"
+	},
+	"aba":{
+		"Type":"item",
+		"Description":"Cabeza de Rockwell Abe 3 - Alpha",
+		"Price":800,
+		"Amount":1,
+		"Blueprint":"Blueprint'/Game/Aberration/CoreBlueprints/Items/Trophies/PrimalItemTrophy_Rockwell_Beta_Alpha.PrimalItemTrophy_Rockwell_Beta_Alpha'"
+	},
+	"g2g":{
+		"Type":"item",
+		"Description":"Cabeza de Rockwell Gen2 - Gamma",
+		"Price":200,
+		"Amount":1,
+		"Blueprint":"Blueprint'/Game/Genesis2/Structures/TrophyHeads/RockwellGen2/PrimalItemTrophy_RockwellGen2_Gamma.PrimalItemTrophy_RockwellGen2_Gamma'"
+	},
+	"g2b":{
+		"Type":"item",
+		"Description":"Cabeza de Rockwell gen2 - Betta",
+		"Price":300,
+		"Amount":1,
+		"Blueprint":"Blueprint'/Game/Genesis2/Structures/TrophyHeads/RockwellGen2/PrimalItemTrophy_RockwellGen2.PrimalItemTrophy_RockwellGen2'"
+	},
+	"g2a":{
+		"Type":"item",
+		"Description":"Cabeza de Rockwell Gen2 - Alpha",
+		"Price":1200,
+		"Amount":1,
+		"Blueprint":"Blueprint'/Game/Genesis2/Structures/TrophyHeads/RockwellGen2/PrimalItemTrophy_RockwellGen2_Alpha.PrimalItemTrophy_RockwellGen2_Alpha'"
+	},
+	"ge1":{
+		"Type":"item",
+		"Description":"Cabeza de Master Controler Genesis",
+		"Price":800,
+		"Amount":1,
+		"Blueprint":"Blueprint'/Game/Genesis/CoreBlueprints/Items/Trophies/PrimalItemTrophy_MasterController.PrimalItemTrophy_MasterController'"
+	},
+	"mga":{
+		"Type":"item",
+		"Description":"Cabeza de Moeder - Gamma",
+		"Price":25,
+		"Amount":1,
+		"Blueprint":"Blueprint'/Game/Genesis/CoreBlueprints/Items/Trophies/PrimalItemTrophy_EelBoss_Gamma.PrimalItemTrophy_EelBoss_Gamma'"
+	},
+	"mbe":{
+		"Type":"item",
+		"Description":"Cabeza de Moeder - Betta",
+		"Price":50,
+		"Amount":1,
+		"Blueprint":"Blueprint'/Game/Genesis/CoreBlueprints/Items/Trophies/PrimalItemTrophy_EelBoss_Beta.PrimalItemTrophy_EelBoss_Beta'"
+	},
+	"mal":{
+		"Type":"item",
+		"Description":"Cabeza de Moeder - Alpha",
+		"Price":75,
+		"Amount":1,
+		"Blueprint":"Blueprint'/Game/Genesis/CoreBlueprints/Items/Trophies/PrimalItemTrophy_EelBoss_Alpha.PrimalItemTrophy_EelBoss_Alpha'"
+	},
+	"dig":{
+		"Type":"item",
+		"Description":"Cabeza Dinopitecus (Lost) - Gamma",
+		"Price":200,
+		"Amount":1,
+		"Blueprint":"Blueprint'/Game/LostIsland/Boss/PrimalItemTrophy_BossDinopithecus_Easy.PrimalItemTrophy_BossDinopithecus_Easy'"
+	},
+	"dib":{
+		"Type":"item",
+		"Description":"Cabeza Dinopitecus (Lost) - Betta",
+		"Price":300,
+		"Amount":1,
+		"Blueprint":"Blueprint'/Game/LostIsland/Boss/PrimalItemTrophy_BossDinopithecus_Medium.PrimalItemTrophy_BossDinopithecus_Medium'"
+	},
+	"dia":{
+		"Type":"item",
+		"Description":"Cabeza Dinopitecus (Lost) - Alpha",
+		"Price":500,
+		"Amount":1,
+		"Blueprint":"Blueprint'/Game/LostIsland/Boss/PrimalItemTrophy_BossDinopithecus_Hard.PrimalItemTrophy_BossDinopithecus_Hard'"
+	},
+	"feg":{
+		"Type":"item",
+		"Description":"Cabeza Fenrir - Gamma",
+		"Price":200,
+		"Amount":1,
+		"Blueprint":"Blueprint'/Game/Fjordur/Structures/FenrirTrophy/PrimalItemTrophy_FenrirBoss_Gamma.PrimalItemTrophy_FenrirBoss_Gamma'"
+	},
+	"feb":{
+		"Type":"item",
+		"Description":"Cabeza Fenrir - Betta",
+		"Price":300,
+		"Amount":1,
+		"Blueprint":"Blueprint'/Game/Fjordur/Structures/FenrirTrophy/PrimalItemTrophy_FenrirBoss_Beta.PrimalItemTrophy_FenrirBoss_Beta'"
+	},
+	"fea":{
+		"Type":"item",
+		"Description":"Cabeza Fenrir - Alpha",
+		"Price":500,
+		"Amount":1,
+		"Blueprint":"Blueprint'/Game/Fjordur/Structures/FenrirTrophy/PrimalItemTrophy_FenrirBoss_Alpha.PrimalItemTrophy_FenrirBoss_Alpha'"
+	}
+  },
+  "Messages":{  
+    "Sender":"TiendaRoyal",
+    "BoughtItem":"<RichColor Color=\"0, 1, 0, 1\">Compaste Exitosamente un item</>",
+    "BoughtDino":"<RichColor Color=\"0, 1, 0, 1\">Compaste Exitosamente un dino</>",
+    "BoughtBeacon":"<RichColor Color=\"0, 1, 0, 1\">Compaste Exitosamente un beacon</>",
+    "BoughtExp":"<RichColor Color=\"0, 1, 0, 1\">Compaste Exitosamente un experience</>",
+    "ReceivedPoints":"<RichColor Color=\"1, 1, 0, 1\">Recibiste {0} Puntos Royal! (total: {1})</>",
+    "HavePoints":"Tienes {0} puntos Royal",
+    "NoPoints":"<RichColor Color=\"1, 0, 0, 1\">No tienes Suficientes Puntos Royal</>",
+    "WrongId":"<RichColor Color=\"1, 0, 0, 1\">ID Erronea</>",
+    "NoPermissionsKit":"<RichColor Color=\"1, 0, 0, 1\">You don't have permission to use this kit</>",
+    "CantBuyKit":"<RichColor Color=\"1, 0, 0, 1\">No Puedes comprar este Kit</>",
+    "BoughtKit":"<RichColor Color=\"0, 1, 0, 1\">Has Comprado Exitosamente {0} kit</>",
+    "AvailableKits":"Kits Disponibles para Ti:",
+    "NoKits":"Sin Kits Disponibles",
+    "KitsLeft":"Te quedan {0} {1} kits",
+    "NoKitsLeft":"No tienes {0} kits restantes",
+    "CantGivePoints":"<RichColor Color=\"1, 0, 0, 1\">No te puedes dar puntos Royal a ti mismo</>",
+    "RidingDino":"<RichColor Color=\"1, 0, 0, 1\">No se puede comprar el item mientras estas montado</>",
+    "SentPoints":"<RichColor Color=\"0, 1, 0, 1\">Has enviado exitosamente {0} Puntos Royal a {1}</>",
+    "GotPoints":"Recibiste {0} Puntos Royal de {1}",
+    "NoPlayer":"<RichColor Color=\"1, 0, 0, 1\">El Jugador No Existe</>",
+    "FoundMorePlayers":"<RichColor Color=\"1, 0, 0, 1\">Se encontro mas de un jugador con el Nombre indicado</>",
+    "BuyUsage":"Como Usar: /comprar id cantidad",
+    "ShopUsage":"Como Usar: /tienda numero pagina",
+    "KitUsage":"Como Usar: /kit ID",
+    "BuyKitUsage":"Como Usar: /comprarkit id cantidad",
+    "TradeUsage":"Como Usar: /enviar 'Player Name' cantidad",
+    "PointsCmd":"/puntos",
+    "TradeCmd":"/enviar",
+    "BuyCmd":"/comprar",
+    "ShopCmd":"/tienda",
+    "KitCmd":"/kit",
+    "BuyKitCmd":"/comprarkit",
+    "SellCmd":"/vender",
+    "ShopSellCmd":"/venta",
+    "SellUsage":"Como Usar: /vender id cantidad",
+    "NotEnoughItems":"<RichColor Color=\"1, 0, 0, 1\">No Tienes Suficientes Items ({0}/{1})</>",
+    "SoldItems":"<RichColor Color=\"0, 1, 0, 1\">Vendiste Exitosamente Tus Items</>",
+    "BadLevel":"<RichColor Color=\"1, 0, 0, 1\">Nivel Requerido: {0} - {1}</>",
+    "KitsListPrice":"Precio : {0}",
+    "KitsListFormat":"\"{0}\" - {1}. {2} restantes. {3}\n",
+    "StoreListDino":"{0}) {1}. Level: {2}. Id: {3}. Precio: {4}\n",
+    "StoreListItem":"{0}) {1}. Id: {2}. Precio: {3}\n",
+    "StoreListFormat":"{0}",
+    "OnlyOnSpawnKit":"Este Kit Solo puede Usarse en el spawn",
+    "Discordcmd":"/discord",
+    "DiscordMessage":"holaaaaaa",
+    "HelpCmd":"/discord",
+    "ShopMessage":"Como Usar: /comprar id cantidad",
+    "HelpMessage":"Discord : discord.gg/XDpS8DeWsQ"
+  }
+}
